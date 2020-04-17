@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+# creating-a-react-app-from-scratch
 
-You can use the [editor on GitHub](https://github.com/kaiben/web/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+This is a simple react implementation, as seen in [this article](https://blog.usejournal.com/creating-a-react-app-from-scratch-f3c693b84658)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Getting Started
 
-### Markdown
+_(Note: this project was created in Node v9.3.0)_
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Clone this repo and install dependencies with `npm install`.
 
-```markdown
-Syntax highlighted code block
+### Starting The Dev Server
 
-# Header 1
-## Header 2
-### Header 3
+To start the server and start hacking, run
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```BASH
+npm start
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+This starter uses webpack-dev-server to spin up an Express server with Hot-Reloading capability. Changes to code in `.src` should cause pages to reload.
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kaiben/web/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
